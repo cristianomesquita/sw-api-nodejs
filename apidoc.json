@@ -1,0 +1,8 @@
+{
+    "name": "Smart Wash API documentation",
+    "version": "1.0.0",
+    "description": "API Supplies Manager",
+    "template": {
+        "forceLanguage": "en"
+    }
+}

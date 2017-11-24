@@ -11,22 +11,22 @@ api.setSupply = (req, res) => {
         long: req.body.long
     });
 
-    supply.save((err, pass) => {
+    supply.save((err, data) => {
         if (err) {
-            res.json({ message: err });
+            res.json({ success: false, message: err });
             throw err;
         }
-        res.sendStatus(200);
+        res.json({ success: true, message: 'Supply registered with success', data });
     });
 };
 
 api.getSupplies = (req, res) => {
     SupplyModel.find({}, (err, data) => {
         if (err) {
-            res.json({ err: err });
+            res.json({ success: false, message: err });
             throw err;
         }
-        res.json({ data });
+        res.json({ success: true, message: 'Supplies list with success', data });
     });
 };
 
