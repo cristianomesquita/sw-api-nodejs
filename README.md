@@ -58,3 +58,8 @@ agora insira a senha que foi enviada para seu email e logo após cadastre sua se
 ### PM2
 
    O módulo PM2 gerencia a aplicação nodejs para nós, mesmo após sairmos do terminal, para que o servidor continue rodando em produção, para isso agora vamos usar o npm que já está instalado previamente quando instalamos o nodejs. Execute no terminal npm install pm2 -g, feito isso para manter o servidor sempre ativo além de diversos outros recursos interessantes do PM2 rode o comando pm2 start server.js, lebrando que precisa estar dentro de www no seu terminal.
+
+## Considerações
+   <p>
+     Estes seriam os requisitos mínimos para rodar a api, existem inúmeras melhorias e configurações a serem feitas para um melhor desempenho. Para acessar a documentação da API http://138.197.79.213:3000/apidoc
+   </p>
