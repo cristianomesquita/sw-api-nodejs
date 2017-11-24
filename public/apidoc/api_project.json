@@ -1,0 +1,1 @@
+{  "name": "Smart Wash API documentation",  "version": "1.0.0",  "description": "API Supplies Manager",  "template": {    "forceLanguage": "en"  },  "sampleUrl": false,  "defaultVersion": "0.0.0",  "apidoc": "0.3.0",  "generator": {    "name": "apidoc",    "time": "2017-11-24T16:09:16.272Z",    "url": "http://apidocjs.com",    "version": "0.17.6"  }}
