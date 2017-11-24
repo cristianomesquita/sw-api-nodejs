@@ -1,0 +1,13 @@
+{
+  "name": "sw-challenge",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.19.2",
+    "mongoose": "^4.13.4"
+  }
+}
